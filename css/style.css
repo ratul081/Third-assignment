@@ -1,0 +1,9 @@
+
+.banner-text{
+    font-size: 70px;
+    font-weight: 700;
+}
+#banner-items{
+    height: 85vh;
+    min-height: 300px;
+}
