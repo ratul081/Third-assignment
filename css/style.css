@@ -1,22 +1,50 @@
+.banner-items {
+  background-color: black;
+  position: relative;
+}
+.overlay-img {
+  height: 35rem;
+  background-size: cover;
+  background-position: center;
+  opacity: 0.4;
+}
+.banner-text {
+  padding: 0 0 65px 0;
+  font-size: 4em;
+}
+.banner-p {
+  font-size: 1.2rem;
+}
+.discover-h {
+  font-size: 3rem;
+}
+.discover-p {
+  font-size: 1.2rem;
+}
+@media screen and (max-width: 992px) {
+  .banner-text {
+    font-size: 3em;
+  }
+  .discover-h {
+    font-size: 3rem;
+  }
+  .discover-p {
+    font-size: 1.5em;
+  }
+}
 
-.banner-text{
-    font-size: 70px;
-    font-weight: 700;
-    padding: 0 0 200px 0;
-}
-.banner-items{
-    height: 45rem;
-    background-color: black;
-    position: relative;
-    
-}
-.overlay-img{
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-position: center;
-    background-size: cover;
-    opacity: .4;
+@media screen and (max-width: 768px) {
+  .banner-text {
+    font-size: 1.76em;
+    padding-bottom: 150px;
+  }
+  .banner-p {
+    font-size: 0.5em;
+  }
+  .discover-h {
+    font-size: 2rem;
+  }
+  .discover-p {
+    font-size: 1em;
+  }
 }
